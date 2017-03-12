@@ -46,6 +46,7 @@ skipFirstH1 | Boolean |    true | Exclude the first h1-level heading in a file.
 
 ## Changelog
 
-* 0.1.0 Releases:
+* 0.1.1 Releases:
+  * 0.1.1 use [TOC] as the mark of "table of contents"
   * 0.1.0 First release
   * 0.1.1 Fixed invalid config example in README (thanks at15) 
