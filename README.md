@@ -1,7 +1,7 @@
 # Gitbook Simple Page TOC Plugin
 
-* I change the <!-- toc --> comments to [TOC], make it more common work. 
-* And compatible with my local markdown editor, Typora and MWeb.
+* I change the <!-- toc --> comments to **[TOC]**. 
+* To make it **compatible** with my local markdown editor, Typora and MWeb.
 
 ## Usage
 
