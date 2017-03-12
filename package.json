@@ -17,7 +17,7 @@
 		"url": "https://github.com/stuebersystems/gitbook-plugin-simple-page-toc/issues"
 	},
 	"dependencies": {
-		"markdown-toc":"git+https://github.com/erictt/markdown-toc.git",
+		"markdown-toc":"git+https://github.com/erictt/markdown-toc.git#1.1.1",
 		"uslug": "^1.0.4"
 	}
 }
