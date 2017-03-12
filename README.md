@@ -1,6 +1,6 @@
 # Gitbook Simple Page TOC Plugin
 
-*  "<!-- toc -->" is NOT **compatible** with some local markdown editor, like Typora and MWeb.
+*  "`<!-- toc -->`" is NOT **compatible** with some local markdown editor, like Typora and MWeb.
 * So i change it to **[TOC]**, which i can still keep it in local, don't need to change.
 
 ## Usage
