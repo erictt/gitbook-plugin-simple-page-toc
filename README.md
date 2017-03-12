@@ -1,6 +1,7 @@
-# Gitbook Simple Page TOC Plugin [![npm version](https://badge.fury.io/js/gitbook-plugin-simple-page-toc.svg)](https://badge.fury.io/js/gitbook-plugin-simple-page-toc)
+# Gitbook Simple Page TOC Plugin
 
-This plugin inserts a table of content (TOC) section into your GitBook page. It is powered by the  [markdown-toc](https://github.com/jonschlinkert/markdown-toc) library.
+* I change the <!-- toc --> comments to [TOC], make it more common work. 
+* And compatible with my local markdown editor, Typora and MWeb.
 
 ## Usage
 
@@ -10,13 +11,15 @@ Add the plugin to your `book.json`:
 
 ```
 {
-	"plugins" : [ "simple-page-toc" ]
+	"plugins" : [ "simple-page-toc@git+https://github.com/erictt/gitbook-plugin-simple-page-toc.git" ]
 }		
 ```
 
+
+
 ### Create TOC
 
-Place a `<!-- toc -->` code comment somewhere into your text. Generating your GitBook inserts a table of contents immediately after this comment.
+Place a `[TOC]` code comment somewhere into your text. Generating your GitBook inserts a table of contents immediately after this comment.
 
 ### Optional configuration
 
@@ -25,7 +28,7 @@ You can add the following configuration params to your `book.json`:
 ```
 {
 	"plugins" : [ 
-		"simple-page-toc" 
+		"simple-page-toc@git+https://github.com/erictt/gitbook-plugin-simple-page-toc.git" 
 	],
 	"pluginsConfig": {
 		"simple-page-toc": {
