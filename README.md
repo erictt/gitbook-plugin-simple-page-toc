@@ -1,7 +1,7 @@
 # Gitbook Simple Page TOC Plugin
 
-* I change the <!-- toc --> comments to **[TOC]**. 
-* To make it **compatible** with my local markdown editor, Typora and MWeb.
+*  "<!-- toc -->" is NOT **compatible** with some local markdown editor, like Typora and MWeb.
+* So i change it to **[TOC]**, which i can still keep it in local, don't need to change.
 
 ## Usage
 
